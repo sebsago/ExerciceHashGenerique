@@ -28,8 +28,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Xsd Include="licence.txt">
-      <Filter>Resource Files</Filter>
-    </Xsd>
+    <None Include="licence.txt" />
   </ItemGroup>
 </Project>
