@@ -13,6 +13,7 @@
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>
+#include "hash.h"
 
 
 // this is not sha-3, this is keccak-256 as used in ethereum
