@@ -132,3 +132,16 @@ std::string sha256(std::string input)
 		sprintf(buf+i*2, "%02x", digest[i]);
 	return std::string(buf);
 }
+
+
+std::string hash(std::string input) {
+	return std::string(sha256(input));
+}
+
+std::string hashName() {
+	return "Sha256";
+}
+
+std::string version() {
+	return SHA256_VERSION_STR;
+}
